@@ -1,0 +1,382 @@
+package TCS
+public
+	with Data_Model;
+	
+	---DATA---
+	data SpeedType
+		properties
+        Data_Model::Data_Representation => Float;
+	end SpeedType;
+	
+	data implementation SpeedType.impl
+	end SpeedType.impl;
+	
+	data AccelerationType
+		properties
+        Data_Model::Data_Representation => Float;
+	end AccelerationType;
+	
+	data implementation AccelerationType.impl
+	end AccelerationType.impl;
+	
+	data PressureType
+		properties
+		Data_Model::Data_Representation => Float;
+	end PressureType;
+	
+	data implementation PressureType.impl
+	end PressureType.impl;
+	
+	data GasType
+		properties
+		Data_Model::Data_Representation => Float;
+	end GasType;
+	
+	data implementation GasType.impl
+	end GasType.impl;
+	
+	
+	---DEVICES---
+	device SpeedSensor
+		features
+			speed: out data port SpeedType;
+			bus1: requires bus access CANbus;
+	end SpeedSensor;
+	
+	device implementation SpeedSensor.implFL
+	end SpeedSensor.implFL;
+	
+	device implementation SpeedSensor.implFR
+	end SpeedSensor.implFR;
+	
+	device implementation SpeedSensor.implRL
+	end SpeedSensor.implRL;
+	
+	device implementation SpeedSensor.implRR
+	end SpeedSensor.implRR;
+	
+	
+	device Accelerometer
+		features
+			acceleration: out data port AccelerationType;
+			bus1: requires bus access CANbus;
+	end Accelerometer;
+	
+	device implementation Accelerometer.impl
+	end Accelerometer.impl;
+	
+	
+	device BrakePedal
+		features
+			pressure: out data port PressureType;
+			bus1: requires bus access CANbus;
+	end BrakePedal;
+	
+	device implementation BrakePedal.impl
+	end BrakePedal.impl;
+	
+	device Brake
+		features
+			pressure: in data port PressureType;
+			bus1: requires bus access CANbus;
+	end Brake;
+	
+	device implementation Brake.implFL
+	end Brake.implFL;
+	
+	device implementation Brake.implFR
+	end Brake.implFR;
+	
+	device implementation Brake.implRL
+	end Brake.implRL;
+	
+	device implementation Brake.implRR
+	end Brake.implRR;
+	
+	
+	device GasPedalSensor
+		features
+			press: out data port GasType;
+			bus1: requires bus access CANbus;
+	end GasPedalSensor;
+	
+	device implementation GasPedalSensor.impl
+	end GasPedalSensor.impl;
+	
+	device Throttle
+		features
+			pressure: in data port PressureType;
+			bus1: requires bus access CANbus;
+	end Throttle;
+	
+	device implementation Throttle.impl
+	end Throttle.impl;
+	
+	
+	---THREADS---
+	thread controlBrake
+		features
+			inPressure: in data port PressureType;
+			outPressure: out data port PressureType;
+		properties
+			Dispatch_Protocol => Periodic;
+			Period => 10ms;
+			Compute_Execution_Time => 1ms .. 5ms;
+	end controlBrake;
+	
+	thread implementation controlBrake.implFL
+	end controlBrake.implFL;
+	
+	thread implementation controlBrake.implFR
+	end controlBrake.implFR;
+	
+	thread implementation controlBrake.implRL
+	end controlBrake.implRL;
+	
+	thread implementation controlBrake.implRR
+	end controlBrake.implRR;
+	
+	
+	thread calcBrakesControl
+		features
+			acceleration: in data port AccelerationType;
+			inPressure: in data port PressureType;
+			inGas: in data port GasType;
+			
+			speedFL: in data port SpeedType;
+			speedFR: in data port SpeedType;
+			speedRL: in data port SpeedType;
+			speedRR: in data port SpeedType;
+			
+			pressureFL: out data port PressureType;
+			pressureFR: out data port PressureType;
+			pressureRL: out data port PressureType;
+			pressureRR: out data port PressureType;
+			
+		properties
+			Dispatch_Protocol => Periodic;
+			Period => 10ms;
+			Compute_Execution_Time => 1ms .. 5ms;
+	end calcBrakesControl;
+	
+	thread implementation calcBrakesControl.impl
+	end calcBrakesControl.impl;
+	
+	
+	thread throttleControl
+		features
+			inGas: in data port GasType;
+			outThrottle: out data port PressureType;
+		properties
+			Dispatch_Protocol => Periodic;
+			Period => 10ms;
+			Compute_Execution_Time => 1ms .. 5ms;
+	end throttleControl;
+	
+	thread implementation throttleControl.impl
+	end throttleControl.impl;
+	
+	
+	thread calcThrottleControl
+		features
+			acceleration: in data port AccelerationType;
+			inGas: in data port GasType;
+			speedFL: in data port SpeedType;
+			speedFR: in data port SpeedType;
+			speedRL: in data port SpeedType;
+			speedRR: in data port SpeedType;
+			
+			outGas: out data port GasType;
+			
+		properties
+			Dispatch_Protocol => Periodic;
+			Period => 10ms;
+			Compute_Execution_Time => 1ms .. 5ms;
+	end calcThrottleControl;
+	
+	thread implementation calcThrottleControl.impl
+	end calcThrottleControl.impl;
+	
+	---PROCESSES---
+	process controlBrakes
+		features
+			acceleration: in data port AccelerationType;
+			inPressure: in data port PressureType;
+			inGas: in data port GasType;
+			
+			speedFL: in data port SpeedType;
+			speedFR: in data port SpeedType;
+			speedRL: in data port SpeedType;
+			speedRR: in data port SpeedType;
+			
+			pressureFL: out data port PressureType;
+			pressureFR: out data port PressureType;
+			pressureRL: out data port PressureType;
+			pressureRR: out data port PressureType;
+	end controlBrakes;
+	
+	process implementation controlBrakes.impl
+		subcomponents
+			calcBrakes: thread calcBrakesControl.impl;
+			ctrlBrakeFL: thread controlBrake.implFL;
+			ctrlBrakeFR: thread controlBrake.implFR;
+			ctrlBrakeRL: thread controlBrake.implRL;
+			ctrlBrakeRR: thread controlBrake.implRR;
+		connections
+			acc: port acceleration -> calcBrakes.acceleration;
+			press: port inPressure -> calcBrakes.inPressure;
+			gas: port inGas -> calcBrakes.inGas;
+			
+			speed1: port speedFL -> calcBrakes.speedFL;
+			speed2: port speedFR -> calcBrakes.speedFR;
+			speed3: port speedRL -> calcBrakes.speedRL;
+			speed4: port speedRR -> calcBrakes.speedRR;
+			
+			inpress1: port calcBrakes.pressureFL -> ctrlBrakeFL.inPressure;
+			inpress2: port calcBrakes.pressureFR -> ctrlBrakeFR.inPressure;
+			inpress3: port calcBrakes.pressureRL -> ctrlBrakeRL.inPressure;
+			inpress4: port calcBrakes.pressureRR -> ctrlBrakeRR.inPressure;
+			
+			outpress1: port ctrlBrakeFL.outPressure -> pressureFL;
+			outpress2: port ctrlBrakeFR.outPressure -> pressureFR;
+			outpress3: port ctrlBrakeRL.outPressure -> pressureRL;
+			outpress4: port ctrlBrakeRR.outPressure -> pressureRR;
+	end controlBrakes.impl;
+	
+	
+	process controlThrottle
+		features
+			acceleration: in data port AccelerationType;
+			inGas: in data port GasType;
+			
+			speedFL: in data port SpeedType;
+			speedFR: in data port SpeedType;
+			speedRL: in data port SpeedType;
+			speedRR: in data port SpeedType;
+			
+			outThrottle: out data port PressureType;
+	end controlThrottle;
+	
+	process implementation controlThrottle.impl
+		subcomponents
+			calcThrottle: thread calcThrottleControl.impl;
+			throttleCtrl: thread ThrottleControl.impl;
+		connections
+			acc: port acceleration -> calcThrottle.acceleration;
+			gas1: port inGas -> calcThrottle.inGas;
+			speed1: port speedFL -> calcThrottle.speedFL;
+			speed2: port speedFR -> calcThrottle.speedFR;
+			speed3: port speedRL -> calcThrottle.speedRL;
+			speed4: port speedRR -> calcThrottle.speedRR;
+			
+			gas2: port calcThrottle.outGas -> throttleCtrl.inGas;
+			gas3: port throttleCtrl.outThrottle -> outThrottle;
+	end controlThrottle.impl;
+	
+	---SYSTEM---
+	system TractionControl
+		features
+			tcbusAccess: provides bus access TCbus;
+			canbusAccess: provides bus access CANbus;
+	end TractionControl;
+	
+	system implementation TractionControl.impl
+		subcomponents
+			proc: processor CPU;
+			ram: memory RAM;
+			tcbus: bus TCbus;
+			canbus: bus CANbus;
+			
+			brakesControl: process controlBrakes;
+			throttleControl: process controlThrottle;
+			
+			brakePedal: device BrakePedal.impl;
+			gasPedal: device GasPedalSensor.impl;
+			throttle: device Throttle.impl;
+			accmeter: device Accelerometer.impl;
+			
+			speedSensorFL: device SpeedSensor.implFL;
+			speedSensorFR: device SpeedSensor.implFR;
+			speedSensorRL: device SpeedSensor.implRL;
+			speedSensorRR: device SpeedSensor.implRR;
+			
+			brakeFL: device Brake.implFL;
+			brakeFR: device Brake.implFR;
+			brakeRL: device Brake.implRL;
+			brakeRR: device Brake.implRR;
+			
+		connections
+			acc: port accmeter.acceleration -> brakesControl.acceleration;
+			press: port brakePedal.pressure -> brakesControl.inPressure;
+			gas1: port gasPedal.press -> brakesControl.inGas;
+			gas2: port gasPedal.press -> throttleControl.inGas;
+			gas3: port throttleControl.outThrottle -> throttle.pressure;
+			
+			speed1: port speedSensorFL.speed -> brakesControl.speedFL;
+			speed2: port speedSensorFR.speed -> brakesControl.speedFR;
+			speed3: port speedSensorRL.speed -> brakesControl.speedRL;
+			speed4: port speedSensorRR.speed -> brakesControl.speedRR;
+			
+			press1: port brakesControl.pressureFL -> BrakeFL.pressure;
+			press2: port brakesControl.pressureFR -> BrakeFR.pressure;
+			press3: port brakesControl.pressureRL -> BrakeRL.pressure;
+			press4: port brakesControl.pressureRR -> BrakeRR.pressure;
+			
+			busproc: bus access tcbus <-> proc.bus1;
+			busram: bus access tcbus <-> ram.bus1;
+			bussys1: bus access tcbus <-> tcbusAccess;
+			bussys2: bus access canbus <-> canbusAccess;
+			
+			busbpedal: bus access canbus <-> brakePedal.bus1;
+			busgpedal: bus access canbus <-> gasPedal.bus1;
+			busthrottle: bus access canbus <-> throttle.bus1;
+			busacc: bus access canbus <-> accmeter.bus1;
+			
+			busspeed1: bus access canbus <-> speedSensorFL.bus1;
+			busspeed2: bus access canbus <-> speedSensorFR.bus1;
+			busspeed3: bus access canbus <-> speedSensorRL.bus1;
+			busspeed4: bus access canbus <-> speedSensorRR.bus1;
+			
+			busbrake1: bus access canbus <-> brakeFL.bus1;
+			busbrake2: bus access canbus <-> brakeFR.bus1;
+			busbrake3: bus access canbus <-> brakeRL.bus1;
+			busbrake4: bus access canbus <-> brakeRR.bus1;
+			
+		properties
+			Actual_Processor_Binding => (reference(proc)) applies to brakesControl;
+			Actual_Processor_Binding => (reference(proc)) applies to throttleControl;
+			
+			Actual_Connection_Binding  => (reference(canbus)) applies to busbpedal;
+			Actual_Connection_Binding  => (reference(canbus)) applies to busgpedal;
+			Actual_Connection_Binding  => (reference(canbus)) applies to busthrottle;
+			Actual_Connection_Binding  => (reference(canbus)) applies to busacc;
+			
+			Actual_Connection_Binding  => (reference(canbus)) applies to busspeed1;
+			Actual_Connection_Binding  => (reference(canbus)) applies to busspeed2;
+			Actual_Connection_Binding  => (reference(canbus)) applies to busspeed3;
+			Actual_Connection_Binding  => (reference(canbus)) applies to busspeed4;
+			
+			Actual_Connection_Binding  => (reference(canbus)) applies to busbrake1;
+			Actual_Connection_Binding  => (reference(canbus)) applies to busbrake2;
+			Actual_Connection_Binding  => (reference(canbus)) applies to busbrake3;
+			Actual_Connection_Binding  => (reference(canbus)) applies to busbrake4;
+	end TractionControl.impl;
+	
+	
+	--OTHER--
+	bus CANbus	
+	end CANbus;
+	
+	bus TCbus	
+	end TCbus;
+	
+	processor CPU
+		features
+			bus1: requires bus access TCbus;
+	end CPU;
+	
+	memory RAM
+		features
+			bus1: requires bus access TCbus;
+	end RAM;
+end TCS;

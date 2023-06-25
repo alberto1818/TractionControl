@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="ASCII"?>
+<diagram:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:diagram="http://osate.org/diagram" formatVersion="7">
+  <element uuid="99daeb72-e8ce-4703-9be5-0e242b1813c1" manual="true">
+    <element uuid="a715b3df-d03c-44e3-9be1-afaccb38af94" manual="true">
+      <element uuid="883cb2c8-c00f-4791-a088-5f23c72be8e1" manual="true" dockArea="left">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>acceleration</seg>
+        </bo>
+        <position y="110.0"/>
+      </element>
+      <element uuid="2dcf2a3c-1c19-44ed-bf5e-24586d97bd92" manual="true" dockArea="left">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>inGas</seg>
+        </bo>
+        <position y="210.0"/>
+      </element>
+      <element uuid="ea76517a-7f96-4b20-a189-1541432f7587" manual="true" dockArea="left">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>inPressure</seg>
+        </bo>
+        <position y="310.0"/>
+      </element>
+      <element uuid="09effb24-08a2-42ab-ac68-fb01e7572de5" manual="true" dockArea="right">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>pressureFL</seg>
+        </bo>
+        <position x="205.5625" y="200.0"/>
+      </element>
+      <element uuid="f4cf674a-bfd4-4622-8300-203d4902b83d" manual="true" dockArea="right">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>pressureFR</seg>
+        </bo>
+        <position x="203.3489532470703" y="280.0"/>
+      </element>
+      <element uuid="febe1db2-b06b-490a-be5c-d5bf7eb38b91" manual="true" dockArea="right">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>pressureRL</seg>
+        </bo>
+        <position x="204.078125" y="120.0"/>
+      </element>
+      <element uuid="b6e73282-51dc-4209-8275-31f477cf5687" manual="true" dockArea="right">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>pressureRR</seg>
+        </bo>
+        <position x="201.8645782470703" y="40.0"/>
+      </element>
+      <element uuid="491a4950-b239-428f-9961-7680547300b7" manual="true" dockArea="left">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>speedFL</seg>
+        </bo>
+        <position y="10.0"/>
+      </element>
+      <element uuid="7d0f0469-a8bd-4874-bb0f-58860893d0e5" manual="true" dockArea="left">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>speedFR</seg>
+        </bo>
+        <position y="60.0"/>
+      </element>
+      <element uuid="3255e3b4-9c5e-48a2-844b-7a23dacbb103" manual="true" dockArea="left">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>speedRL</seg>
+        </bo>
+        <position y="160.0"/>
+      </element>
+      <element uuid="eddf4c1a-475c-4fe1-8931-ea4d8c542bd8" manual="true" dockArea="left">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>speedRR</seg>
+        </bo>
+        <position y="260.0"/>
+      </element>
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>component_instance</seg>
+        <seg>calcBrakes</seg>
+      </bo>
+      <position x="253.68359375" y="38.0"/>
+      <size width="284.9973907470703" height="360.0"/>
+    </element>
+    <element uuid="a8fe41dd-f1fa-4dd4-be6e-ee6e66450354" manual="true">
+      <element uuid="34ef769f-b78b-4aa3-9d28-bbbbc4600311" manual="true" dockArea="left">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>inPressure</seg>
+        </bo>
+        <position y="10.0"/>
+      </element>
+      <element uuid="13705cf8-943a-465e-a5cb-28ff20e2e033" manual="true" dockArea="right">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>outPressure</seg>
+        </bo>
+        <position x="204.05208587646484" y="10.0"/>
+      </element>
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>component_instance</seg>
+        <seg>ctrlBrakeFL</seg>
+      </bo>
+      <position x="560.5299263000488" y="228.0"/>
+      <size width="287.9401092529297" height="60.0"/>
+    </element>
+    <element uuid="102676df-653c-491e-8895-21d54d58669a" manual="true">
+      <element uuid="d546ae8b-7cd2-482e-beec-f9204f75942e" manual="true" dockArea="left">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>inPressure</seg>
+        </bo>
+        <position y="10.0"/>
+      </element>
+      <element uuid="f4d68553-97bd-4e4a-9c8a-633173efe5db" manual="true" dockArea="right">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>outPressure</seg>
+        </bo>
+        <position x="206.265625" y="10.0"/>
+      </element>
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>component_instance</seg>
+        <seg>ctrlBrakeFR</seg>
+      </bo>
+      <position x="559.4231567382812" y="308.0"/>
+      <size width="290.15364837646484" height="60.0"/>
+    </element>
+    <element uuid="35869bb3-925e-4dbc-9e8a-2b2ef58a9800" manual="true">
+      <element uuid="ec974712-b002-455f-9c23-fe7c1af6c15d" manual="true" dockArea="left">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>inPressure</seg>
+        </bo>
+        <position y="10.0"/>
+      </element>
+      <element uuid="007b3f7c-b322-4ccd-9f0f-bba9713ee18c" manual="true" dockArea="right">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>outPressure</seg>
+        </bo>
+        <position x="205.53646087646484" y="10.0"/>
+      </element>
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>component_instance</seg>
+        <seg>ctrlBrakeRL</seg>
+      </bo>
+      <position x="559.7877388000488" y="148.0"/>
+      <size width="289.4244842529297" height="60.0"/>
+    </element>
+    <element uuid="df647b0e-751b-4fd9-8963-878a0f5b17de" manual="true">
+      <element uuid="17bd9def-1515-486e-bfd3-dd45c26d57e1" manual="true" dockArea="left">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>inPressure</seg>
+        </bo>
+        <position y="10.0"/>
+      </element>
+      <element uuid="e4c95d29-c811-4b0a-bdd1-80beac4c0c51" manual="true" dockArea="right">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>outPressure</seg>
+        </bo>
+        <position x="207.75" y="10.0"/>
+      </element>
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>component_instance</seg>
+        <seg>ctrlBrakeRR</seg>
+      </bo>
+      <position x="558.6809692382812" y="68.0"/>
+      <size width="291.63802337646484" height="60.0"/>
+    </element>
+    <element uuid="259df39d-b4ae-4cdf-acaf-afa89d26f51d" manual="true">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>connection_reference</seg>
+        <seg>acc : controlBrakes_impl_Instance.acceleration -> controlBrakes_impl_Instance.calcBrakes.acceleration</seg>
+      </bo>
+    </element>
+    <element uuid="ab32b6e4-022f-427a-a547-877e0f64eeec" manual="true">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>connection_reference</seg>
+        <seg>gas : controlBrakes_impl_Instance.inGas -> controlBrakes_impl_Instance.calcBrakes.inGas</seg>
+      </bo>
+    </element>
+    <element uuid="20166f36-7665-4093-9923-621b0a3cf988" manual="true">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>connection_reference</seg>
+        <seg>inpress1 : controlBrakes_impl_Instance.calcBrakes.pressureFL -> controlBrakes_impl_Instance.ctrlBrakeFL.inPressure</seg>
+      </bo>
+    </element>
+    <element uuid="3eeba9ee-b971-468d-b1af-93f8cf26d50e" manual="true">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>connection_reference</seg>
+        <seg>inpress2 : controlBrakes_impl_Instance.calcBrakes.pressureFR -> controlBrakes_impl_Instance.ctrlBrakeFR.inPressure</seg>
+      </bo>
+    </element>
+    <element uuid="5ad61918-aeaa-4080-b521-267a23fa80ec" manual="true">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>connection_reference</seg>
+        <seg>inpress3 : controlBrakes_impl_Instance.calcBrakes.pressureRL -> controlBrakes_impl_Instance.ctrlBrakeRL.inPressure</seg>
+      </bo>
+    </element>
+    <element uuid="0a67d245-0f58-4434-a760-506b80155063" manual="true">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>connection_reference</seg>
+        <seg>inpress4 : controlBrakes_impl_Instance.calcBrakes.pressureRR -> controlBrakes_impl_Instance.ctrlBrakeRR.inPressure</seg>
+      </bo>
+    </element>
+    <element uuid="d913140f-e3ae-4394-b35d-6ce5f2345644" manual="true">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>connection_reference</seg>
+        <seg>outpress1 : controlBrakes_impl_Instance.ctrlBrakeFL.outPressure -> controlBrakes_impl_Instance.pressureFL</seg>
+      </bo>
+    </element>
+    <element uuid="47949274-cb59-498e-b86d-54c3c614848c" manual="true">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>connection_reference</seg>
+        <seg>outpress2 : controlBrakes_impl_Instance.ctrlBrakeFR.outPressure -> controlBrakes_impl_Instance.pressureFR</seg>
+      </bo>
+    </element>
+    <element uuid="d160045c-5fc6-4da8-8fda-c297bf8404fd" manual="true">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>connection_reference</seg>
+        <seg>outpress3 : controlBrakes_impl_Instance.ctrlBrakeRL.outPressure -> controlBrakes_impl_Instance.pressureRL</seg>
+      </bo>
+    </element>
+    <element uuid="44adda15-d5d3-4879-ac11-a89a013e31a1" manual="true">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>connection_reference</seg>
+        <seg>outpress4 : controlBrakes_impl_Instance.ctrlBrakeRR.outPressure -> controlBrakes_impl_Instance.pressureRR</seg>
+      </bo>
+    </element>
+    <element uuid="4b421a28-8294-4e09-8f1f-4b49f29a2710" manual="true">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>connection_reference</seg>
+        <seg>press : controlBrakes_impl_Instance.inPressure -> controlBrakes_impl_Instance.calcBrakes.inPressure</seg>
+      </bo>
+    </element>
+    <element uuid="2e6b6c84-f972-42db-ba24-46fe881e16b8" manual="true">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>connection_reference</seg>
+        <seg>speed1 : controlBrakes_impl_Instance.speedFL -> controlBrakes_impl_Instance.calcBrakes.speedFL</seg>
+      </bo>
+    </element>
+    <element uuid="2780c967-1bfc-42f7-9263-a1e060e1236c" manual="true">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>connection_reference</seg>
+        <seg>speed2 : controlBrakes_impl_Instance.speedFR -> controlBrakes_impl_Instance.calcBrakes.speedFR</seg>
+      </bo>
+    </element>
+    <element uuid="71727362-83fc-4036-b3b6-793344ac4212" manual="true">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>connection_reference</seg>
+        <seg>speed3 : controlBrakes_impl_Instance.speedRL -> controlBrakes_impl_Instance.calcBrakes.speedRL</seg>
+      </bo>
+    </element>
+    <element uuid="83cde9c8-1612-4926-820a-60943612a499" manual="true">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>connection_reference</seg>
+        <seg>speed4 : controlBrakes_impl_Instance.speedRR -> controlBrakes_impl_Instance.calcBrakes.speedRR</seg>
+      </bo>
+    </element>
+    <element uuid="32d01010-86f3-4e4f-8e42-93708c0841eb" manual="true" dockArea="left">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>feature_instance</seg>
+        <seg>acceleration</seg>
+      </bo>
+      <position y="148.0"/>
+    </element>
+    <element uuid="f48d39b9-14e1-4df5-ad14-e58c4b1d07bd" manual="true" dockArea="left">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>feature_instance</seg>
+        <seg>inGas</seg>
+      </bo>
+      <position y="248.0"/>
+    </element>
+    <element uuid="2e3feb68-9211-4a7f-9b3e-7f1afbe34d91" manual="true" dockArea="left">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>feature_instance</seg>
+        <seg>inPressure</seg>
+      </bo>
+      <position y="348.0"/>
+    </element>
+    <element uuid="7859b2fa-dd4b-4451-82ac-1343b47567e5" manual="true" dockArea="right">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>feature_instance</seg>
+        <seg>pressureFL</seg>
+      </bo>
+      <position x="949.9114227294922" y="238.0"/>
+    </element>
+    <element uuid="bb2f7de2-296e-429d-bf38-5f7e891127c8" manual="true" dockArea="right">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>feature_instance</seg>
+        <seg>pressureFR</seg>
+      </bo>
+      <position x="947.6978759765625" y="318.0"/>
+    </element>
+    <element uuid="89109179-92d3-42af-9ce1-486ca870c747" manual="true" dockArea="right">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>feature_instance</seg>
+        <seg>pressureRL</seg>
+      </bo>
+      <position x="948.4270477294922" y="158.0"/>
+    </element>
+    <element uuid="73415a9a-f355-42e6-8470-d31f4635b649" manual="true" dockArea="right">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>feature_instance</seg>
+        <seg>pressureRR</seg>
+      </bo>
+      <position x="946.2135009765625" y="78.0"/>
+    </element>
+    <element uuid="e7b15f63-f8da-4caf-910d-5745931bd029" manual="true" dockArea="left">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>feature_instance</seg>
+        <seg>speedFL</seg>
+      </bo>
+      <position y="48.0"/>
+    </element>
+    <element uuid="4bb3108c-3103-40f6-b88d-fb6dd1ad58ce" manual="true" dockArea="left">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>feature_instance</seg>
+        <seg>speedFR</seg>
+      </bo>
+      <position y="98.0"/>
+    </element>
+    <element uuid="42ddfa01-2841-4f4d-86e7-5f13fae24fb5" manual="true" dockArea="left">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>feature_instance</seg>
+        <seg>speedRL</seg>
+      </bo>
+      <position y="198.0"/>
+    </element>
+    <element uuid="eb5e0776-ff1a-4c4c-a424-1186520cdd38" manual="true" dockArea="left">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>feature_instance</seg>
+        <seg>speedRR</seg>
+      </bo>
+      <position y="298.0"/>
+    </element>
+    <bo>
+      <seg>org.osate.ge.diagrams.instance</seg>
+      <seg>system_instance</seg>
+      <seg>/tractioncontrol/instances/tcs_controlbrakes_impl_instance.aaxl2</seg>
+    </bo>
+    <position/>
+    <size width="1029.3463134765625" height="410.0"/>
+  </element>
+  <config type="structure" connectionPrimaryLabelsVisible="false">
+    <enabledAadlProperties/>
+    <context>
+      <seg>org.osate.ge.diagrams.instance</seg>
+      <seg>system_instance</seg>
+      <seg>/tractioncontrol/instances/tcs_controlbrakes_impl_instance.aaxl2</seg>
+    </context>
+  </config>
+</diagram:Diagram>

@@ -1,0 +1,1063 @@
+<?xml version="1.0" encoding="ASCII"?>
+<diagram:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:diagram="http://osate.org/diagram" formatVersion="7">
+  <element uuid="8f09da8f-089e-47a3-a958-9e9000c2d295" manual="true">
+    <element uuid="6ce94e55-342a-475a-9b5b-21af6b3a2713" manual="true">
+      <element uuid="fe0bda86-f02d-4a59-ade7-360b3b154bc1" manual="true" dockArea="left">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>acceleration</seg>
+        </bo>
+        <position y="10.0"/>
+      </element>
+      <element uuid="496d7bca-d77e-4ea5-9be6-703dac870867" manual="true" dockArea="left">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>bus1</seg>
+        </bo>
+        <position y="60.0"/>
+      </element>
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>component_instance</seg>
+        <seg>accmeter</seg>
+      </bo>
+      <position x="1366.6457061767578" y="563.0"/>
+      <size width="274.61978912353516" height="110.0"/>
+    </element>
+    <element uuid="4f124999-451b-4033-ad2e-fde05140a9b1" manual="true">
+      <element uuid="a220cbcb-0132-4894-b699-f41ac2b027b9" manual="true" dockArea="right">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>bus1</seg>
+        </bo>
+        <position x="187.74999237060547" y="10.0"/>
+      </element>
+      <element uuid="df3d97a5-43d0-49f5-8bb4-ec39218c965b" manual="true" dockArea="left">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>pressure</seg>
+        </bo>
+        <position y="10.0"/>
+      </element>
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>component_instance</seg>
+        <seg>brakeFL</seg>
+      </bo>
+      <position x="934.8176803588867" y="847.0"/>
+      <size width="228.66275024414062" height="60.0"/>
+    </element>
+    <element uuid="67bbbef0-6619-43f0-be6a-5a19e04d6ea0" manual="true">
+      <element uuid="5dafc17a-b6f2-4689-b5b3-b9d9db9b4e4c" manual="true" dockArea="right">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>bus1</seg>
+        </bo>
+        <position x="189.9635353088379" y="10.0"/>
+      </element>
+      <element uuid="bde846ee-b006-4570-855f-8ab9b3cb96ca" manual="true" dockArea="left">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>pressure</seg>
+        </bo>
+        <position y="10.0"/>
+      </element>
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>component_instance</seg>
+        <seg>brakeFR</seg>
+      </bo>
+      <position x="933.7109088897705" y="527.0"/>
+      <size width="230.87629318237305" height="60.0"/>
+    </element>
+    <element uuid="dad5fc64-b008-4d26-8934-77e39b430b21" manual="true">
+      <element uuid="88d70c32-3bab-4d2f-9b7f-c7f00750cb60" manual="true" dockArea="right">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>bus1</seg>
+        </bo>
+        <position x="206.29166412353516" y="10.0"/>
+      </element>
+      <element uuid="eeede384-c636-45b0-9939-d7dcd9967e75" manual="true" dockArea="right">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>pressure</seg>
+        </bo>
+        <position x="183.32942581176758" y="60.0"/>
+      </element>
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>component_instance</seg>
+        <seg>brakePedal</seg>
+      </bo>
+      <position x="295.91014099121094" y="241.0"/>
+      <size width="247.2044219970703" height="110.0"/>
+    </element>
+    <element uuid="24b58823-ead3-4ada-a205-5857c12fc03d" manual="true">
+      <element uuid="3c9b256d-efdf-4c18-9431-7434589a1151" manual="true" dockArea="right">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>bus1</seg>
+        </bo>
+        <position x="189.23436737060547" y="10.0"/>
+      </element>
+      <element uuid="abb4bdf6-ea8e-4849-850b-af4e4e9ad137" manual="true" dockArea="left">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>pressure</seg>
+        </bo>
+        <position y="10.0"/>
+      </element>
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>component_instance</seg>
+        <seg>brakeRL</seg>
+      </bo>
+      <position x="934.0754928588867" y="767.0"/>
+      <size width="230.14712524414062" height="60.0"/>
+    </element>
+    <element uuid="3766994e-6878-4c7a-b59d-4b8f7cac023e" manual="true">
+      <element uuid="947dd8d9-fe13-436b-8a94-4704caad0948" manual="true" dockArea="right">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>bus1</seg>
+        </bo>
+        <position x="191.4479103088379" y="10.0"/>
+      </element>
+      <element uuid="886f2162-e49d-40c7-932f-771342e13839" manual="true" dockArea="left">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>pressure</seg>
+        </bo>
+        <position y="10.0"/>
+      </element>
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>component_instance</seg>
+        <seg>brakeRR</seg>
+      </bo>
+      <position x="932.9687213897705" y="607.0"/>
+      <size width="232.36066818237305" height="60.0"/>
+    </element>
+    <element uuid="1396bdd0-39f7-4071-9b83-e4f8e8c55bdd" manual="true">
+      <element uuid="5127f42c-94d0-4b85-873b-8c9ff88a6ff3" manual="true" dockArea="right">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>acceleration</seg>
+        </bo>
+        <position x="218.89583587646484" y="10.0"/>
+      </element>
+      <element uuid="893d7177-18b2-43f5-8854-68ffececdf7e" manual="true" dockArea="left">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>inGas</seg>
+        </bo>
+        <position y="200.0"/>
+      </element>
+      <element uuid="d839f87a-ab6c-4f80-83fc-4348ecffa2ec" manual="true" dockArea="left">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>inPressure</seg>
+        </bo>
+        <position y="40.0"/>
+      </element>
+      <element uuid="b0eb0caa-f280-4253-bd42-beca2cc61296" manual="true" dockArea="right">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>pressureFL</seg>
+        </bo>
+        <position x="223.35547637939453" y="310.0"/>
+      </element>
+      <element uuid="35d0e78e-4480-4a58-b2b9-c13126eafb81" manual="true" dockArea="right">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>pressureFR</seg>
+        </bo>
+        <position x="221.14192962646484" y="110.0"/>
+      </element>
+      <element uuid="4bb20532-fbd2-4394-b007-157d6e7388f2" manual="true" dockArea="right">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>pressureRL</seg>
+        </bo>
+        <position x="221.87110137939453" y="260.0"/>
+      </element>
+      <element uuid="df125b1d-3959-4578-b389-95046bd6492e" manual="true" dockArea="right">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>pressureRR</seg>
+        </bo>
+        <position x="219.65755462646484" y="160.0"/>
+      </element>
+      <element uuid="b4c42574-aa84-4a33-a9f0-2e0d2ac58911" manual="true" dockArea="left">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>speedFL</seg>
+        </bo>
+        <position y="280.0"/>
+      </element>
+      <element uuid="2266b3fc-c456-40f8-a1cf-15400c91c803" manual="true" dockArea="right">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>speedFR</seg>
+        </bo>
+        <position x="236.6888084411621" y="210.0"/>
+      </element>
+      <element uuid="38e224ca-6f67-4139-b3b9-e15037fcd341" manual="true" dockArea="right">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>speedRL</seg>
+        </bo>
+        <position x="237.41797637939453" y="60.0"/>
+      </element>
+      <element uuid="dc7eb9b5-b6b0-43ed-af7e-c511e439c84a" manual="true" dockArea="left">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>speedRR</seg>
+        </bo>
+        <position y="120.0"/>
+      </element>
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>component_instance</seg>
+        <seg>brakesControl</seg>
+      </bo>
+      <position x="583.5868793834339" y="424.0"/>
+      <size width="302.79036712646484" height="360.0"/>
+    </element>
+    <element uuid="662212e1-7663-442c-8187-9047bffe1b9f" manual="true">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>component_instance</seg>
+        <seg>canbus</seg>
+      </bo>
+      <position x="1231.6509552001953" y="609.0"/>
+      <size width="94.99478912353516" height="230.0"/>
+    </element>
+    <element uuid="f6695895-55db-4019-892b-5b343f71650c" manual="true">
+      <element uuid="7bc6bf8e-3445-41e0-a19d-b66f545a27ab" manual="true" dockArea="right">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>bus1</seg>
+        </bo>
+        <position x="155.89452362060547" y="60.0"/>
+      </element>
+      <element uuid="f4d54afe-5ac2-4642-b6ce-a4fcf2995013" manual="true" dockArea="right">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>press</seg>
+        </bo>
+        <position x="152.20311737060547" y="10.0"/>
+      </element>
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>component_instance</seg>
+        <seg>gasPedal</seg>
+      </bo>
+      <position x="346.3072814941406" y="614.0"/>
+      <size width="196.80728149414062" height="110.0"/>
+    </element>
+    <element uuid="08eb5e8f-dae1-4c8b-9e25-72313dcfa7ff" manual="true">
+      <element uuid="ae9e4de1-695b-4080-96e7-54f6dc338e6a" manual="true" dockArea="left">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>bus1</seg>
+        </bo>
+        <position y="10.0"/>
+      </element>
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>component_instance</seg>
+        <seg>proc</seg>
+      </bo>
+      <position x="397.52601623535156" y="118.0"/>
+      <size width="159.76301383972168" height="60.0"/>
+    </element>
+    <element uuid="26ff34c6-c4b9-4598-8eaf-a083d5dfd5a9" manual="true">
+      <element uuid="f9fe7a18-93c7-4b42-bfac-c5b37638f70c" manual="true" dockArea="left">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>bus1</seg>
+        </bo>
+        <position y="10.0"/>
+      </element>
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>component_instance</seg>
+        <seg>ram</seg>
+      </bo>
+      <position x="397.52601623535156" y="38.0"/>
+      <size width="156.7877540588379" height="60.0"/>
+    </element>
+    <element uuid="79cd82ba-43d7-4762-8ae4-5f0b6aa8fdad" manual="true">
+      <element uuid="4994c083-4191-496d-8113-384fa9bcd5a6" manual="true" dockArea="right">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>bus1</seg>
+        </bo>
+        <position x="201.87759399414062" y="60.0"/>
+      </element>
+      <element uuid="854fb053-782e-4c69-9e35-4db052865fa9" manual="true" dockArea="right">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>speed</seg>
+        </bo>
+        <position x="194.46223068237305" y="10.0"/>
+      </element>
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>component_instance</seg>
+        <seg>speedSensorFL</seg>
+      </bo>
+      <position x="300.32421112060547" y="1043.0"/>
+      <size width="242.79035186767578" height="110.0"/>
+    </element>
+    <element uuid="219aaf61-16a8-4992-843d-447ea5068c51" manual="true">
+      <element uuid="23e64b33-30db-4240-8c7e-5edd6f7354f4" manual="true" dockArea="right">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>bus1</seg>
+        </bo>
+        <position x="204.09113311767578" y="10.0"/>
+      </element>
+      <element uuid="3aab84dd-3f1b-4f4e-afd8-b10b17c26443" manual="true" dockArea="left">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>speed</seg>
+        </bo>
+        <position y="10.0"/>
+      </element>
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>component_instance</seg>
+        <seg>speedSensorFR</seg>
+      </bo>
+      <position x="926.6471099853516" y="687.0"/>
+      <size width="245.00389099121094" height="60.0"/>
+    </element>
+    <element uuid="25b01c64-acf9-4522-a8ba-c045e8315034" manual="true">
+      <element uuid="29a5dd1a-a96e-4a85-8283-9af168bc58a8" manual="true" dockArea="left">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>bus1</seg>
+        </bo>
+        <position y="60.0"/>
+      </element>
+      <element uuid="2498bf29-401d-4f6e-9395-607abba5f179" manual="true" dockArea="left">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>speed</seg>
+        </bo>
+        <position y="10.0"/>
+      </element>
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>component_instance</seg>
+        <seg>speedSensorRL</seg>
+      </bo>
+      <position x="1366.6457061767578" y="701.0"/>
+      <size width="244.27472686767578" height="110.0"/>
+    </element>
+    <element uuid="5e2bdd6b-a958-4345-9cc6-ec4183a6e7c1" manual="true">
+      <element uuid="5f160c9d-d39e-4ecb-9b14-c3294f0acd92" manual="true" dockArea="right">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>bus1</seg>
+        </bo>
+        <position x="205.57550811767578" y="10.0"/>
+      </element>
+      <element uuid="e7c4beb0-5b37-4a15-99f0-25cdf77f3fec" manual="true" dockArea="right">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>speed</seg>
+        </bo>
+        <position x="198.1601448059082" y="60.0"/>
+      </element>
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>component_instance</seg>
+        <seg>speedSensorRR</seg>
+      </bo>
+      <position x="296.6262969970703" y="371.0"/>
+      <size width="246.48826599121094" height="110.0"/>
+    </element>
+    <element uuid="6acc377b-f5f2-4a1c-81e5-55dd48702ae9" manual="true">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>component_instance</seg>
+        <seg>tcbus</seg>
+      </bo>
+      <position x="293.65753173828125" y="70.0"/>
+      <size width="83.86848640441895" height="50.0"/>
+    </element>
+    <element uuid="5390512f-6e66-477b-8f51-314119afdb06" manual="true">
+      <element uuid="9a4e1151-a376-48f0-91ba-e0558bcd85db" manual="true" dockArea="right">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>bus1</seg>
+        </bo>
+        <position x="179.59894943237305" y="10.0"/>
+      </element>
+      <element uuid="69213b96-a52e-4135-81b1-c42e9786e26d" manual="true" dockArea="left">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>pressure</seg>
+        </bo>
+        <position y="10.0"/>
+      </element>
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>component_instance</seg>
+        <seg>throttle</seg>
+      </bo>
+      <position x="938.8932018280029" y="929.0"/>
+      <size width="220.5117073059082" height="60.0"/>
+    </element>
+    <element uuid="7aa4e45f-5898-4747-a75d-21b94a7a7a15" manual="true">
+      <element uuid="15437cca-e1bb-4887-9860-28cf8ef6904b" manual="true" dockArea="left">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>acceleration</seg>
+        </bo>
+        <position y="160.0"/>
+      </element>
+      <element uuid="7a63c87a-9ee1-46b1-b865-2797a90b994a" manual="true" dockArea="left">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>inGas</seg>
+        </bo>
+        <position y="10.0"/>
+      </element>
+      <element uuid="e7506602-3a0a-46ca-8be6-523f627ce09b" manual="true" dockArea="right">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>outThrottle</seg>
+        </bo>
+        <position x="227.79558181762695" y="135.0"/>
+      </element>
+      <element uuid="89cad89c-d8c3-415d-a062-6282a7f6c5ce" manual="true" dockArea="left">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>speedFL</seg>
+        </bo>
+        <position y="60.0"/>
+      </element>
+      <element uuid="4cfc579f-0ab6-4006-bc72-cee9f9baf8a2" manual="true" dockArea="left">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>speedFR</seg>
+        </bo>
+        <position y="110.0"/>
+      </element>
+      <element uuid="d5ae4ab3-57a8-4cf2-aaa9-bdbf388ae8d6" manual="true" dockArea="left">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>speedRL</seg>
+        </bo>
+        <position y="210.0"/>
+      </element>
+      <element uuid="2e036b0f-adf1-47d4-9a9a-58bd5ed002d6" manual="true" dockArea="left">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>speedRR</seg>
+        </bo>
+        <position y="260.0"/>
+      </element>
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>component_instance</seg>
+        <seg>throttleControl</seg>
+      </bo>
+      <position x="583.1145782470703" y="804.0"/>
+      <size width="303.53255462646484" height="310.0"/>
+    </element>
+    <element uuid="d7ce6f4f-1030-4fc0-99a8-07391b6e6909" manual="true">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>connection_reference</seg>
+        <seg>acc : TractionControl_impl_Instance.accmeter.acceleration -> TractionControl_impl_Instance.brakesControl.acceleration</seg>
+      </bo>
+      <bendpoints>
+        <point x="1356.645751953125" y="605.0"/>
+        <point x="1356.645751953125" y="466.0"/>
+      </bendpoints>
+    </element>
+    <element uuid="7c736860-9096-41e9-8197-94ae94197423" manual="true">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>connection_reference</seg>
+        <seg>busacc : TractionControl_impl_Instance.accmeter.bus1 -> TractionControl_impl_Instance.canbus</seg>
+      </bo>
+      <bendpoints>
+        <point x="1336.645751953125" y="655.0"/>
+        <point x="1336.645751953125" y="701.0"/>
+        <point x="1330.645751953125" y="701.0"/>
+      </bendpoints>
+    </element>
+    <element uuid="21d5fe41-3060-498c-baeb-dec8a9bc2848" manual="true">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>connection_reference</seg>
+        <seg>busacc : TractionControl_impl_Instance.canbus -> TractionControl_impl_Instance.accmeter.bus1</seg>
+      </bo>
+      <bendpoints>
+        <point x="1326.645751953125" y="655.0"/>
+      </bendpoints>
+    </element>
+    <element uuid="586673f7-b93b-47f4-a6c1-384ed66aab26" manual="true">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>connection_reference</seg>
+        <seg>busbpedal : TractionControl_impl_Instance.brakePedal.bus1 -> TractionControl_impl_Instance.canbus</seg>
+      </bo>
+      <bendpoints>
+        <point x="1211.6510009765625" y="283.0"/>
+        <point x="1211.6510009765625" y="649.0"/>
+        <point x="1227.6510009765625" y="649.0"/>
+      </bendpoints>
+    </element>
+    <element uuid="67f3963f-3868-40be-aec2-e49de3a38f5f" manual="true">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>connection_reference</seg>
+        <seg>busbpedal : TractionControl_impl_Instance.canbus -> TractionControl_impl_Instance.brakePedal.bus1</seg>
+      </bo>
+      <bendpoints>
+        <point x="1227.6510009765625" y="639.0"/>
+        <point x="1211.6510009765625" y="639.0"/>
+        <point x="1211.6510009765625" y="283.0"/>
+      </bendpoints>
+    </element>
+    <element uuid="25eb048e-1c9e-4ed1-8379-28a2c9295308" manual="true">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>connection_reference</seg>
+        <seg>busbrake1 : TractionControl_impl_Instance.brakeFL.bus1 -> TractionControl_impl_Instance.canbus</seg>
+      </bo>
+      <bendpoints>
+        <point x="1191.6510009765625" y="889.0"/>
+        <point x="1191.6510009765625" y="759.0"/>
+        <point x="1227.6510009765625" y="759.0"/>
+      </bendpoints>
+    </element>
+    <element uuid="b889bf36-868c-48f6-bc1e-41049218008e" manual="true">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>connection_reference</seg>
+        <seg>busbrake1 : TractionControl_impl_Instance.canbus -> TractionControl_impl_Instance.brakeFL.bus1</seg>
+      </bo>
+      <bendpoints>
+        <point x="1227.6510009765625" y="769.0"/>
+        <point x="1191.6510009765625" y="769.0"/>
+        <point x="1191.6510009765625" y="889.0"/>
+      </bendpoints>
+    </element>
+    <element uuid="11163bd8-b98c-4ab7-aee9-01a009b32d23" manual="true">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>connection_reference</seg>
+        <seg>busbrake2 : TractionControl_impl_Instance.brakeFR.bus1 -> TractionControl_impl_Instance.canbus</seg>
+      </bo>
+      <bendpoints>
+        <point x="1191.6510009765625" y="569.0"/>
+        <point x="1191.6510009765625" y="679.0"/>
+        <point x="1227.6510009765625" y="679.0"/>
+      </bendpoints>
+    </element>
+    <element uuid="f2d7f42c-6a19-4226-bf61-16ecbb164e8b" manual="true">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>connection_reference</seg>
+        <seg>busbrake2 : TractionControl_impl_Instance.canbus -> TractionControl_impl_Instance.brakeFR.bus1</seg>
+      </bo>
+      <bendpoints>
+        <point x="1227.6510009765625" y="689.0"/>
+        <point x="1191.6510009765625" y="689.0"/>
+        <point x="1191.6510009765625" y="569.0"/>
+      </bendpoints>
+    </element>
+    <element uuid="9b4165d0-eae4-4ed5-8ee3-27c6fe49bcc6" manual="true">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>connection_reference</seg>
+        <seg>busbrake3 : TractionControl_impl_Instance.brakeRL.bus1 -> TractionControl_impl_Instance.canbus</seg>
+      </bo>
+      <bendpoints>
+        <point x="1181.6510009765625" y="809.0"/>
+        <point x="1181.6510009765625" y="739.0"/>
+        <point x="1227.6510009765625" y="739.0"/>
+      </bendpoints>
+    </element>
+    <element uuid="181fc04e-62a7-4466-84d7-ea0d44a4a89b" manual="true">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>connection_reference</seg>
+        <seg>busbrake3 : TractionControl_impl_Instance.canbus -> TractionControl_impl_Instance.brakeRL.bus1</seg>
+      </bo>
+      <bendpoints>
+        <point x="1227.6510009765625" y="749.0"/>
+        <point x="1181.6510009765625" y="749.0"/>
+        <point x="1181.6510009765625" y="809.0"/>
+      </bendpoints>
+    </element>
+    <element uuid="dfb5146a-4fb4-44aa-a641-b1290a2bacb8" manual="true">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>connection_reference</seg>
+        <seg>busbrake4 : TractionControl_impl_Instance.brakeRR.bus1 -> TractionControl_impl_Instance.canbus</seg>
+      </bo>
+      <bendpoints>
+        <point x="1181.6510009765625" y="649.0"/>
+        <point x="1181.6510009765625" y="709.0"/>
+        <point x="1227.6510009765625" y="709.0"/>
+      </bendpoints>
+    </element>
+    <element uuid="a134a504-1d63-40b2-87aa-9769d2a66f2e" manual="true">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>connection_reference</seg>
+        <seg>busbrake4 : TractionControl_impl_Instance.canbus -> TractionControl_impl_Instance.brakeRR.bus1</seg>
+      </bo>
+      <bendpoints>
+        <point x="1227.6510009765625" y="699.0"/>
+        <point x="1181.6510009765625" y="699.0"/>
+        <point x="1181.6510009765625" y="649.0"/>
+      </bendpoints>
+    </element>
+    <element uuid="5cffe4e1-740c-4bf0-bb58-0539eeaaaea5" manual="true">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>connection_reference</seg>
+        <seg>busgpedal : TractionControl_impl_Instance.canbus -> TractionControl_impl_Instance.gasPedal.bus1</seg>
+      </bo>
+      <bendpoints>
+        <point x="1227.6510009765625" y="809.0"/>
+        <point x="1211.6510009765625" y="809.0"/>
+        <point x="1211.6510009765625" y="1124.0"/>
+        <point x="553.1145629882812" y="1124.0"/>
+        <point x="553.1145629882812" y="706.0"/>
+      </bendpoints>
+    </element>
+    <element uuid="b3a8df54-d09d-474f-bc04-9b33b0d09905" manual="true">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>connection_reference</seg>
+        <seg>busgpedal : TractionControl_impl_Instance.gasPedal.bus1 -> TractionControl_impl_Instance.canbus</seg>
+      </bo>
+      <bendpoints>
+        <point x="553.1145629882812" y="706.0"/>
+        <point x="553.1145629882812" y="1124.0"/>
+        <point x="1211.6510009765625" y="1124.0"/>
+        <point x="1211.6510009765625" y="799.0"/>
+        <point x="1227.6510009765625" y="799.0"/>
+      </bendpoints>
+    </element>
+    <element uuid="9d83500b-bfe9-4d0a-ad3c-4a369a001dac" manual="true">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>connection_reference</seg>
+        <seg>busproc : TractionControl_impl_Instance.proc.bus1 -> TractionControl_impl_Instance.tcbus</seg>
+      </bo>
+      <bendpoints>
+        <point x="387.5260009765625" y="160.0"/>
+        <point x="387.5260009765625" y="110.0"/>
+        <point x="381.5260314941406" y="110.0"/>
+      </bendpoints>
+    </element>
+    <element uuid="6a18a88b-fcd5-4dbd-a0dc-fb76b053495d" manual="true">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>connection_reference</seg>
+        <seg>busproc : TractionControl_impl_Instance.tcbus -> TractionControl_impl_Instance.proc.bus1</seg>
+      </bo>
+      <bendpoints>
+        <point x="381.5260314941406" y="100.0"/>
+        <point x="387.5260009765625" y="100.0"/>
+        <point x="387.5260009765625" y="160.0"/>
+      </bendpoints>
+    </element>
+    <element uuid="181c9a14-b502-46e4-93b9-ffc93285eb2e" manual="true">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>connection_reference</seg>
+        <seg>busram : TractionControl_impl_Instance.ram.bus1 -> TractionControl_impl_Instance.tcbus</seg>
+      </bo>
+      <bendpoints>
+        <point x="387.5260009765625" y="80.0"/>
+        <point x="387.5260009765625" y="90.0"/>
+        <point x="381.5260314941406" y="90.0"/>
+      </bendpoints>
+    </element>
+    <element uuid="23d63414-38ba-4e85-823c-f5d59dc1f8c7" manual="true">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>connection_reference</seg>
+        <seg>busram : TractionControl_impl_Instance.tcbus -> TractionControl_impl_Instance.ram.bus1</seg>
+      </bo>
+      <bendpoints>
+        <point x="377.5260314941406" y="80.0"/>
+      </bendpoints>
+    </element>
+    <element uuid="d2ab6065-a2ad-42d5-b2e5-cbdbb620a186" manual="true">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>connection_reference</seg>
+        <seg>busspeed1 : TractionControl_impl_Instance.canbus -> TractionControl_impl_Instance.speedSensorFL.bus1</seg>
+      </bo>
+      <bendpoints>
+        <point x="1227.6510009765625" y="829.0"/>
+        <point x="1221.6510009765625" y="829.0"/>
+        <point x="1221.6510009765625" y="1135.0"/>
+      </bendpoints>
+    </element>
+    <element uuid="92ded6ed-5e28-48ad-9a56-fdbd123c1883" manual="true">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>connection_reference</seg>
+        <seg>busspeed1 : TractionControl_impl_Instance.speedSensorFL.bus1 -> TractionControl_impl_Instance.canbus</seg>
+      </bo>
+      <bendpoints>
+        <point x="1221.6510009765625" y="1135.0"/>
+        <point x="1221.6510009765625" y="819.0"/>
+        <point x="1227.6510009765625" y="819.0"/>
+      </bendpoints>
+    </element>
+    <element uuid="a8242f18-1df4-4bae-a2d6-6b6abe0d1f1d" manual="true">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>connection_reference</seg>
+        <seg>busspeed2 : TractionControl_impl_Instance.canbus -> TractionControl_impl_Instance.speedSensorFR.bus1</seg>
+      </bo>
+      <bendpoints>
+        <point x="1227.6510009765625" y="719.0"/>
+        <point x="1181.6510009765625" y="719.0"/>
+        <point x="1181.6510009765625" y="729.0"/>
+      </bendpoints>
+    </element>
+    <element uuid="4e5e82e5-e746-4438-a18c-e8eb9811924f" manual="true">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>connection_reference</seg>
+        <seg>busspeed2 : TractionControl_impl_Instance.speedSensorFR.bus1 -> TractionControl_impl_Instance.canbus</seg>
+      </bo>
+      <bendpoints>
+        <point x="1231.6510009765625" y="729.0"/>
+      </bendpoints>
+    </element>
+    <element uuid="a8200072-340f-4c99-953f-f7f8fcf05c5b" manual="true">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>connection_reference</seg>
+        <seg>busspeed3 : TractionControl_impl_Instance.canbus -> TractionControl_impl_Instance.speedSensorRL.bus1</seg>
+      </bo>
+      <bendpoints>
+        <point x="1326.645751953125" y="793.0"/>
+      </bendpoints>
+    </element>
+    <element uuid="a1c27d13-a571-43b1-b6e0-4015d0d5b655" manual="true">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>connection_reference</seg>
+        <seg>busspeed3 : TractionControl_impl_Instance.speedSensorRL.bus1 -> TractionControl_impl_Instance.canbus</seg>
+      </bo>
+      <bendpoints>
+        <point x="1336.645751953125" y="793.0"/>
+        <point x="1336.645751953125" y="747.0"/>
+        <point x="1330.645751953125" y="747.0"/>
+      </bendpoints>
+    </element>
+    <element uuid="baf6fefb-bc76-44c4-844a-1a309e3f219d" manual="true">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>connection_reference</seg>
+        <seg>busspeed4 : TractionControl_impl_Instance.canbus -> TractionControl_impl_Instance.speedSensorRR.bus1</seg>
+      </bo>
+      <bendpoints>
+        <point x="1227.6510009765625" y="669.0"/>
+        <point x="1201.6510009765625" y="669.0"/>
+        <point x="1201.6510009765625" y="413.0"/>
+      </bendpoints>
+    </element>
+    <element uuid="6c692ae2-6a2c-4159-adc8-ea527274ebb9" manual="true">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>connection_reference</seg>
+        <seg>busspeed4 : TractionControl_impl_Instance.speedSensorRR.bus1 -> TractionControl_impl_Instance.canbus</seg>
+      </bo>
+      <bendpoints>
+        <point x="1201.6510009765625" y="413.0"/>
+        <point x="1201.6510009765625" y="659.0"/>
+        <point x="1227.6510009765625" y="659.0"/>
+      </bendpoints>
+    </element>
+    <element uuid="f469e4b0-c88e-44a0-b20f-c17427c8e5af" manual="true">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>connection_reference</seg>
+        <seg>bussys1 : TractionControl_impl_Instance.tcbus -> TractionControl_impl_Instance.tcbusAccess</seg>
+      </bo>
+      <bendpoints>
+        <point x="289.65753173828125" y="103.33333587646484"/>
+        <point x="283.65753173828125" y="103.33333587646484"/>
+        <point x="283.65753173828125" y="86.66666412353516"/>
+      </bendpoints>
+    </element>
+    <element uuid="b5b18425-8e15-452c-8994-b402fca6ee35" manual="true">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>connection_reference</seg>
+        <seg>bussys1 : TractionControl_impl_Instance.tcbusAccess -> TractionControl_impl_Instance.tcbus</seg>
+      </bo>
+      <bendpoints>
+        <point x="293.65753173828125" y="86.66666412353516"/>
+      </bendpoints>
+    </element>
+    <element uuid="e2309da5-69e3-46b7-a663-9629445d6abe" manual="true">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>connection_reference</seg>
+        <seg>bussys2 : TractionControl_impl_Instance.canbus -> TractionControl_impl_Instance.canbusAccess</seg>
+      </bo>
+      <bendpoints>
+        <point x="1227.6510009765625" y="619.0"/>
+        <point x="1221.6510009765625" y="619.0"/>
+        <point x="1221.6510009765625" y="230.0"/>
+      </bendpoints>
+    </element>
+    <element uuid="6610306a-e79b-41c0-8431-0f0bc1249558" manual="true">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>connection_reference</seg>
+        <seg>bussys2 : TractionControl_impl_Instance.canbusAccess -> TractionControl_impl_Instance.canbus</seg>
+      </bo>
+      <bendpoints>
+        <point x="1221.6510009765625" y="230.0"/>
+        <point x="1221.6510009765625" y="629.0"/>
+        <point x="1227.6510009765625" y="629.0"/>
+      </bendpoints>
+    </element>
+    <element uuid="719c9cbc-068a-4987-9777-e7a7428f7277" manual="true">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>connection_reference</seg>
+        <seg>busthrottle : TractionControl_impl_Instance.canbus -> TractionControl_impl_Instance.throttle.bus1</seg>
+      </bo>
+      <bendpoints>
+        <point x="1227.6510009765625" y="779.0"/>
+        <point x="1201.6510009765625" y="779.0"/>
+        <point x="1201.6510009765625" y="971.0"/>
+      </bendpoints>
+    </element>
+    <element uuid="7bb5a262-eace-49f1-ab42-45e16feaac0f" manual="true">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>connection_reference</seg>
+        <seg>busthrottle : TractionControl_impl_Instance.throttle.bus1 -> TractionControl_impl_Instance.canbus</seg>
+      </bo>
+      <bendpoints>
+        <point x="1201.6510009765625" y="971.0"/>
+        <point x="1201.6510009765625" y="789.0"/>
+        <point x="1227.6510009765625" y="789.0"/>
+      </bendpoints>
+    </element>
+    <element uuid="2b4ad927-9725-4bae-8551-7c5842e8412d" manual="true">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>connection_reference</seg>
+        <seg>gas1 : TractionControl_impl_Instance.gasPedal.press -> TractionControl_impl_Instance.brakesControl.inGas</seg>
+      </bo>
+    </element>
+    <element uuid="dd8f1a74-175c-46a2-8fcb-0621e91f89e5" manual="true">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>connection_reference</seg>
+        <seg>gas2 : TractionControl_impl_Instance.gasPedal.press -> TractionControl_impl_Instance.throttleControl.inGas</seg>
+      </bo>
+      <bendpoints>
+        <point x="573.1145629882812" y="656.0"/>
+        <point x="573.1145629882812" y="846.0"/>
+      </bendpoints>
+    </element>
+    <element uuid="96740d08-83f1-40a7-a56a-b2d5c30903a3" manual="true">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>connection_reference</seg>
+        <seg>gas3 : TractionControl_impl_Instance.throttleControl.outThrottle -> TractionControl_impl_Instance.throttle.pressure</seg>
+      </bo>
+    </element>
+    <element uuid="664f7ac3-d6fb-4e64-ac71-164c97d49dfe" manual="true">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>connection_reference</seg>
+        <seg>press : TractionControl_impl_Instance.brakePedal.pressure -> TractionControl_impl_Instance.brakesControl.inPressure</seg>
+      </bo>
+      <bendpoints>
+        <point x="563.1145629882812" y="333.0"/>
+        <point x="563.1145629882812" y="496.0"/>
+      </bendpoints>
+    </element>
+    <element uuid="8f480944-a5f2-4392-a77f-4a7020f3b886" manual="true">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>connection_reference</seg>
+        <seg>press1 : TractionControl_impl_Instance.brakesControl.pressureFL -> TractionControl_impl_Instance.brakeFL.pressure</seg>
+      </bo>
+      <bendpoints>
+        <point x="896.6470947265625" y="766.0"/>
+        <point x="896.6470947265625" y="889.0"/>
+      </bendpoints>
+    </element>
+    <element uuid="380c4149-d4bc-41ab-90c8-b264c1f64295" manual="true">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>connection_reference</seg>
+        <seg>press2 : TractionControl_impl_Instance.brakesControl.pressureFR -> TractionControl_impl_Instance.brakeFR.pressure</seg>
+      </bo>
+      <bendpoints>
+        <point x="896.6470947265625" y="566.0"/>
+        <point x="896.6470947265625" y="569.0"/>
+      </bendpoints>
+    </element>
+    <element uuid="91ab4541-e545-48f8-b039-207aab002193" manual="true">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>connection_reference</seg>
+        <seg>press3 : TractionControl_impl_Instance.brakesControl.pressureRL -> TractionControl_impl_Instance.brakeRL.pressure</seg>
+      </bo>
+      <bendpoints>
+        <point x="906.6470947265625" y="716.0"/>
+        <point x="906.6470947265625" y="809.0"/>
+      </bendpoints>
+    </element>
+    <element uuid="22111d30-5112-4548-b990-4d307c4b86b5" manual="true">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>connection_reference</seg>
+        <seg>press4 : TractionControl_impl_Instance.brakesControl.pressureRR -> TractionControl_impl_Instance.brakeRR.pressure</seg>
+      </bo>
+      <bendpoints>
+        <point x="896.6470947265625" y="616.0"/>
+        <point x="896.6470947265625" y="649.0"/>
+      </bendpoints>
+    </element>
+    <element uuid="03d46adc-8b13-4264-aedf-426734e60953" manual="true">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>connection_reference</seg>
+        <seg>speed1 : TractionControl_impl_Instance.speedSensorFL.speed -> TractionControl_impl_Instance.brakesControl.speedFL</seg>
+      </bo>
+      <bendpoints>
+        <point x="563.1145629882812" y="1085.0"/>
+        <point x="563.1145629882812" y="736.0"/>
+      </bendpoints>
+    </element>
+    <element uuid="8aae7378-5f55-498d-8e7d-eefed30a9ef6" manual="true">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>connection_reference</seg>
+        <seg>speed2 : TractionControl_impl_Instance.speedSensorFR.speed -> TractionControl_impl_Instance.brakesControl.speedFR</seg>
+      </bo>
+      <bendpoints>
+        <point x="916.6470947265625" y="729.0"/>
+        <point x="916.6470947265625" y="666.0"/>
+      </bendpoints>
+    </element>
+    <element uuid="36389181-b38f-4b15-a21c-b3d53d05a05c" manual="true">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>connection_reference</seg>
+        <seg>speed3 : TractionControl_impl_Instance.speedSensorRL.speed -> TractionControl_impl_Instance.brakesControl.speedRL</seg>
+      </bo>
+      <bendpoints>
+        <point x="1346.645751953125" y="743.0"/>
+        <point x="1346.645751953125" y="516.0"/>
+      </bendpoints>
+    </element>
+    <element uuid="9d1a7e40-5c35-4900-a761-fdc09970dd27" manual="true">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>connection_reference</seg>
+        <seg>speed4 : TractionControl_impl_Instance.speedSensorRR.speed -> TractionControl_impl_Instance.brakesControl.speedRR</seg>
+      </bo>
+      <bendpoints>
+        <point x="553.1145629882812" y="463.0"/>
+        <point x="553.1145629882812" y="576.0"/>
+      </bendpoints>
+    </element>
+    <element uuid="2dd5ed9a-5435-45a3-9835-d559c93048e3" manual="true" dockArea="left">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>feature_instance</seg>
+        <seg>canbusAccess</seg>
+      </bo>
+      <position y="198.0"/>
+    </element>
+    <element uuid="bec87f2c-17f9-445d-ba3a-45ab0969de43" manual="true" dockArea="left">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>feature_instance</seg>
+        <seg>tcbusAccess</seg>
+      </bo>
+      <position y="54.66666666666667"/>
+    </element>
+    <bo>
+      <seg>org.osate.ge.diagrams.instance</seg>
+      <seg>system_instance</seg>
+      <seg>/tractioncontrol/instances/tcs_tractioncontrol_impl_instance.aaxl2</seg>
+    </bo>
+    <position/>
+    <size width="1751.2355041503906" height="1165.0"/>
+  </element>
+  <config type="structure" connectionPrimaryLabelsVisible="false">
+    <enabledAadlProperties/>
+    <context>
+      <seg>org.osate.ge.diagrams.instance</seg>
+      <seg>system_instance</seg>
+      <seg>/tractioncontrol/instances/tcs_tractioncontrol_impl_instance.aaxl2</seg>
+    </context>
+  </config>
+</diagram:Diagram>

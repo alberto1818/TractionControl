@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="ASCII"?>
+<diagram:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:diagram="http://osate.org/diagram" formatVersion="7">
+  <element uuid="2f62d22a-81b7-4cbf-907d-7c19d7a50658" manual="true">
+    <element uuid="03e3267d-793b-4f01-a5b0-cbb73b1fa405" manual="true">
+      <element uuid="a597aee5-5ae9-4fa7-86c9-cabdb392efb8" manual="true" dockArea="left">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>acceleration</seg>
+        </bo>
+        <position y="110.0"/>
+      </element>
+      <element uuid="3b5bd539-4ae2-4893-b73c-101302033506" manual="true" dockArea="left">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>inGas</seg>
+        </bo>
+        <position y="210.0"/>
+      </element>
+      <element uuid="306dbd51-ddbd-40b3-bbd9-e9cb7ea00896" manual="true" dockArea="right">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>outGas</seg>
+        </bo>
+        <position x="233.71353912353516" y="135.0"/>
+      </element>
+      <element uuid="4d8497d9-c606-428e-a73c-64765950efa9" manual="true" dockArea="left">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>speedFL</seg>
+        </bo>
+        <position y="10.0"/>
+      </element>
+      <element uuid="5f7f46d8-64ba-477f-a8fa-fca73c8d5721" manual="true" dockArea="left">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>speedFR</seg>
+        </bo>
+        <position y="60.0"/>
+      </element>
+      <element uuid="1a259c27-b9c6-421e-b4d2-a40c7980561f" manual="true" dockArea="left">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>speedRL</seg>
+        </bo>
+        <position y="160.0"/>
+      </element>
+      <element uuid="e6d8f14b-100a-4058-8bc5-e3926d39176b" manual="true" dockArea="left">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>speedRR</seg>
+        </bo>
+        <position y="260.0"/>
+      </element>
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>component_instance</seg>
+        <seg>calcThrottle</seg>
+      </bo>
+      <position x="253.68359375" y="38.0"/>
+      <size width="288.70182037353516" height="310.0"/>
+    </element>
+    <element uuid="7653859f-801f-4198-90e4-2b7bb42b4f04" manual="true">
+      <element uuid="0edec3a0-4aee-4b13-95f0-f1853fc9e834" manual="true" dockArea="left">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>inGas</seg>
+        </bo>
+        <position y="10.0"/>
+      </element>
+      <element uuid="5442de26-c773-4bb4-a464-4097f346b9d3" manual="true" dockArea="right">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>outThrottle</seg>
+        </bo>
+        <position x="189.2343635559082" y="10.0"/>
+      </element>
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>component_instance</seg>
+        <seg>throttleCtrl</seg>
+      </bo>
+      <position x="562.3854064941406" y="163.0"/>
+      <size width="264.9713363647461" height="60.0"/>
+    </element>
+    <element uuid="b7082fc8-c0dd-45ed-af23-2b9c25bdf75c" manual="true">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>connection_reference</seg>
+        <seg>acc : controlThrottle_impl_Instance.acceleration -> controlThrottle_impl_Instance.calcThrottle.acceleration</seg>
+      </bo>
+    </element>
+    <element uuid="8e051095-81cc-486d-b606-86b5786a8289" manual="true">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>connection_reference</seg>
+        <seg>gas1 : controlThrottle_impl_Instance.inGas -> controlThrottle_impl_Instance.calcThrottle.inGas</seg>
+      </bo>
+    </element>
+    <element uuid="3959cce4-50e2-4c9d-81eb-2f629a89cb80" manual="true">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>connection_reference</seg>
+        <seg>gas2 : controlThrottle_impl_Instance.calcThrottle.outGas -> controlThrottle_impl_Instance.throttleCtrl.inGas</seg>
+      </bo>
+    </element>
+    <element uuid="00d34be4-b2b8-4b3f-bd48-2f6699ebcd92" manual="true">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>connection_reference</seg>
+        <seg>gas3 : controlThrottle_impl_Instance.throttleCtrl.outThrottle -> controlThrottle_impl_Instance.outThrottle</seg>
+      </bo>
+    </element>
+    <element uuid="d496fe53-1d09-4f20-81c0-84260738a078" manual="true">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>connection_reference</seg>
+        <seg>speed1 : controlThrottle_impl_Instance.speedFL -> controlThrottle_impl_Instance.calcThrottle.speedFL</seg>
+      </bo>
+    </element>
+    <element uuid="2d2b5ade-769d-4b00-9a0d-48a43b9538a8" manual="true">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>connection_reference</seg>
+        <seg>speed2 : controlThrottle_impl_Instance.speedFR -> controlThrottle_impl_Instance.calcThrottle.speedFR</seg>
+      </bo>
+    </element>
+    <element uuid="1e3fec69-3bd6-4b81-adda-b0bd4b274a83" manual="true">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>connection_reference</seg>
+        <seg>speed3 : controlThrottle_impl_Instance.speedRL -> controlThrottle_impl_Instance.calcThrottle.speedRL</seg>
+      </bo>
+    </element>
+    <element uuid="1dc5ddf3-3c3f-4022-b493-9ed3bc17cca6" manual="true">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>connection_reference</seg>
+        <seg>speed4 : controlThrottle_impl_Instance.speedRR -> controlThrottle_impl_Instance.calcThrottle.speedRR</seg>
+      </bo>
+    </element>
+    <element uuid="70a00c80-53c3-4bea-bad4-b20518a444ab" manual="true" dockArea="left">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>feature_instance</seg>
+        <seg>acceleration</seg>
+      </bo>
+      <position y="148.0"/>
+    </element>
+    <element uuid="67436ce5-b965-454e-af30-9943211983b2" manual="true" dockArea="left">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>feature_instance</seg>
+        <seg>inGas</seg>
+      </bo>
+      <position y="248.0"/>
+    </element>
+    <element uuid="cc58b871-d881-40c4-a657-a56759a9a4a9" manual="true" dockArea="right">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>feature_instance</seg>
+        <seg>outThrottle</seg>
+      </bo>
+      <position x="923.2513084411621" y="173.0"/>
+    </element>
+    <element uuid="8c7d4b9e-c1f7-4798-84fd-01b78cb9be66" manual="true" dockArea="left">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>feature_instance</seg>
+        <seg>speedFL</seg>
+      </bo>
+      <position y="48.0"/>
+    </element>
+    <element uuid="c38b7d9c-85aa-4eb1-961b-dd9db822a73c" manual="true" dockArea="left">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>feature_instance</seg>
+        <seg>speedFR</seg>
+      </bo>
+      <position y="98.0"/>
+    </element>
+    <element uuid="b1051ca6-3479-481e-ae2d-b810249b3036" manual="true" dockArea="left">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>feature_instance</seg>
+        <seg>speedRL</seg>
+      </bo>
+      <position y="198.0"/>
+    </element>
+    <element uuid="cccc723b-1fcb-44ae-832c-68b7e7b36c2d" manual="true" dockArea="left">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>feature_instance</seg>
+        <seg>speedRR</seg>
+      </bo>
+      <position y="298.0"/>
+    </element>
+    <bo>
+      <seg>org.osate.ge.diagrams.instance</seg>
+      <seg>system_instance</seg>
+      <seg>/tractioncontrol/instances/tcs_controlthrottle_impl_instance.aaxl2</seg>
+    </bo>
+    <position/>
+    <size width="998.98828125" height="360.0"/>
+  </element>
+  <config type="structure" connectionPrimaryLabelsVisible="false">
+    <enabledAadlProperties/>
+    <context>
+      <seg>org.osate.ge.diagrams.instance</seg>
+      <seg>system_instance</seg>
+      <seg>/tractioncontrol/instances/tcs_controlthrottle_impl_instance.aaxl2</seg>
+    </context>
+  </config>
+</diagram:Diagram>
