@@ -155,8 +155,8 @@ public
 			
 		properties
 			Dispatch_Protocol => Periodic;
-			Period => 10ms;
-			Compute_Execution_Time => 1ms .. 5ms;
+			Period => 20ms;
+			Compute_Execution_Time => 5ms .. 15ms;
 	end calcBrakesControl;
 	
 	thread implementation calcBrakesControl.impl
@@ -190,8 +190,8 @@ public
 			
 		properties
 			Dispatch_Protocol => Periodic;
-			Period => 10ms;
-			Compute_Execution_Time => 1ms .. 5ms;
+			Period => 15ms;
+			Compute_Execution_Time => 5ms .. 10ms;
 	end calcThrottleControl;
 	
 	thread implementation calcThrottleControl.impl
